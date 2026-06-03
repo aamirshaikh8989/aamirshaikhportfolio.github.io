@@ -1110,6 +1110,59 @@ section {
   }
 }
 
+/*---------------------------------------------------------
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services {
+  padding: 60px 0;
+  background: #f8fbff;
+}
+
+.services .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services .row {
+  row-gap: 30px;
+}
+
+.services .icon-box {
+  background: #ffffff;
+  padding: 40px 28px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eef2f7;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 18px 45px rgba(0, 123, 255, 0.18);
+  border-color: #0d6efd;
+}
+
+.services .icon-box h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 18px;
+}
+
+.services .icon-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
